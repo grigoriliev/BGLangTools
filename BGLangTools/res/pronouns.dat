@@ -1,0 +1,350 @@
+90
+аз	Ppe-os1
+мене	Ppelas1
+мен	Ppelas1
+ме	Ppetas1
+на мене	Ppelds1
+на мен	Ppelds1
+ми	Ppetds1
+
+91
+ти	Ppe-os2
+тебе	Ppelas2
+теб	Ppelas2
+те	Ppetas2
+на тебе	Ppelds2
+на теб	Ppelds2
+ти	Ppetds2
+
+92
+той	Ppe-os3m
+него	Ppelas3m
+го	Ppetas3m
+нему	Ppelds3m
+на него	Ppelds3m
+му	Ppetds3m
+
+93
+тя	Ppe-os3f
+нея	Ppelas3f
+я	Ppetas3f
+ней	Ppelds3f
+на нея	Ppelds3f
+ѝ	Ppetds3f
+й	Ppetds3f
+
+94
+то	Ppe-os3n
+него	Ppelas3n
+го	Ppetas3n
+нему	Ppelds3n
+на него	Ppelds3n
+му	Ppetds3n
+
+95
+ние	Ppe-op1
+ний	Ppe-op1
+нас	Ppelap1
+ни	Ppetap1
+нам	Ppeldp1
+на нас	Ppeldp1
+ни	Ppetdp1
+
+96
+вие	Ppe-op2
+вий	Ppe-op2
+вас	Ppelap2
+ви	Ppetap2
+вам	Ppeldp2
+на вас	Ppeldp2
+ви	Ppetdp2
+
+97
+те	Ppe-op3
+тях	Ppelap3
+ги	Ppetap3
+тям	Ppeldp3
+на тях	Ppeldp3
+им	Ppetdp3
+
+98
+този	Pde-os-m
+тази	Pde-os-f
+това	Pde-os-n
+тези	Pde-op
+
+99
+онзи	Pde-os-m
+онази	Pde-os-f
+онова	Pde-os-n
+онези	Pde-op
+
+100
+тоя	Pde-os-m
+тая	Pde-os-f
+туй	Pde-os-n
+тия	Pde-op
+
+101
+оня	Pde-os-m
+оная	Pde-os-f
+онуй	Pde-os-n
+ония	Pde-op
+
+102
+такъв	Pda--s-m
+такава	Pda--s-f
+такова	Pda--s-n
+такива	Pda--p
+
+103
+онакъв	Pda--s-m
+онакава	Pda--s-f
+онакова	Pda--s-n
+онакива	Pda--p
+
+104
+толкав	Pda--s-m
+толкавия	Pda--s-mh
+толкавият	Pda--s-mf
+толкава	Pda--s-f
+толкавата	Pda--s-fd
+толкаво	Pda--s-n
+толкавото	Pda--s-nd
+толкави	Pda--p
+толкавите	Pda--p--d
+
+105
+инакъв	Pda--s-m
+инаквия	Pda--s-mh
+инаквият	Pda--s-mf
+инаква	Pda--s-f
+инаквата	Pda--s-fd
+инакво	Pda--s-n
+инаквото	Pda--s-nd
+инакви	Pda--p
+инаквите	Pda--p--d
+
+106
+мой	Psol-s1mi
+моя	Psol-s1mh
+моят	Psol-s1mf
+моя	Psol-s1fi
+моята	Psol-s1fd
+мое	Psol-s1ni
+моето	Psol-s1nd
+мои	Psol-p1-i
+моите	Psol-p1-d
+ми	Psot--1
+
+107
+твой	Psol-s2mi
+твоя	Psol-s2mh
+твоят	Psol-s2mf
+твоя	Psol-s2fi
+твоята	Psol-s2fd
+твое	Psol-s2ni
+твоето	Psol-s2nd
+твои	Psol-p2-i
+твоите	Psol-p2-d
+ти	Psot--2
+
+108
+свой	Psxlos-mi
+своя	Psxlos-mh
+своят	Psxlos-mf
+своя	Psxlos-fi
+своята	Psxlos-fd
+свое	Psxlos-ni
+своето	Psxlos-nd
+свои	Psxlop--i
+своите	Psxlop--d
+си	Psxto
+
+109
+негов	Psol-s3mim
+неговия	Psol-s3mhm
+неговият	Psol-s3mfm
+негова	Psol-s3fim
+неговата	Psol-s3fdm
+негово	Psol-s3nim
+неговото	Psol-s3ndm
+негови	Psol-p3-im
+неговите	Psol-p3-dm
+му	Psot--3--m
+
+110
+неин	Psol-s3mif
+нейния	Psol-s3mhf
+нейният	Psol-s3mff
+нейна	Psol-s3fif
+нейната	Psol-s3fdf
+нейно	Psol-s3nif
+нейното	Psol-s3ndf
+нейни	Psol-p3-if
+нейните	Psol-p3-df
+ѝ	Psot--3--f
+
+111
+наш	Pszl-s1mi
+нашия	Pszl-s1mh
+нашият	Pszl-s1mf
+наша	Pszl-s1fi
+нашата	Pszl-s1fd
+наше	Pszl-s1ni
+нашето	Pszl-s1nd
+наши	Pszl-p1-i
+нашите	Pszl-p1-d
+ни	Pszt--1
+
+112
+ваш	Pszl-s2mi
+вашия	Pszl-s2mh
+вашият	Pszl-s2mf
+ваша	Pszl-s2fi
+вашата	Pszl-s2fd
+ваше	Pszl-s2ni
+вашето	Pszl-s2nd
+ваши	Pszl-p2-i
+вашите	Pszl-p2-d
+ви	Pszt--2
+
+113
+техен	Pszl-s3mi
+техния	Pszl-s3mh
+техният	Pszl-s3mf
+тяхна	Pszl-s3fi
+тяхната	Pszl-s3fd
+тяхно	Pszl-s3ni
+тяхното	Pszl-s3nd
+техни	Pszl-p3-i
+техните	Pszl-p3-d
+им	Pszt--3
+
+114
+кой	Pie-os-m
+кого	Pie-as-m
+кому	Pie-ds-m
+на кого	Pie-ds-m
+коя	Pie-os-f
+кое	Pie-os-n
+кои	Pie-op
+
+115
+чий	Pip--s-m
+чия	Pip--s-f
+чие	Pip--s-n
+чии	Pip--p
+
+116
+какъв	Pia--s-m
+каква	Pia--s-f
+какво	Pia--s-n
+какви	Pia--p
+
+117
+колкав	Pia--s-m
+колчав	Pia--s-m
+колкава	Pia--s-f
+колчава	Pia--s-f
+колкаво	Pia--s-n
+колчаво	Pia--s-n
+колкави	Pia--p
+колчави	Pia--p
+
+118
+който	Pre-os-m
+когото	Pre-as-m
+комуто	Pre-ds-m
+на когото	Pre-ds-m
+която	Pre-os-f
+което	Pre-os-n
+които	Pre-op
+
+119
+чийто	Prp--s-m
+чиято	Prp--s-f
+чието	Prp--s-n
+чиите	Prp--p
+
+120
+какъвто	Pra--s-m
+каквато	Pra--s-f
+каквото	Pra--s-n
+каквито	Pra--p
+
+121
+някой	Pfe-os-m
+някого	Pfe-as-m
+някому	Pfe-ds-m
+на някого	Pfe-ds-m
+някоя	Pfe-os-f
+някое	Pfe-os-n
+някои	Pfe-op
+
+122
+нечий	Pfp--s-m
+нечия	Pfp--s-f
+нечие	Pfp--s-n
+нечии	Pfp--p
+
+123
+някакъв	Pfa--s-m
+някаква	Pfa--s-f
+някакво	Pfa--s-n
+някакви	Pfa--p
+
+124
+никой	Pne-os-m
+никого	Pne-as-m
+никому	Pne-ds-m
+на никого	Pne-ds-m
+никоя	Pne-os-f
+никое	Pne-os-n
+никои	Pne-op
+
+125
+ничий	Pnp--s-m
+ничия	Pnp--s-f
+ничие	Pnp--s-n
+ничии	Pnp--p
+
+126
+никакъв	Pna--s-m
+никаква	Pna--s-f
+никакво	Pna--s-n
+никакви	Pna--p
+
+127
+всякой	Pce-os-m
+всякого	Pce-as-m
+всякому	Pce-ds-m
+на всякого	Pce-ds-m
+всякоя	Pce-os-f
+всякое	Pce-os-n
+всякои	Pce-op
+
+128
+всеки	Pce-os-m
+всекиго	Pce-as-m
+всекиму	Pce-ds-m
+на всеки	Pce-ds-m
+всяка	Pce-os-f
+всяко	Pce-os-n
+
+129
+всякакъв	Pca--s-m
+всякаква	Pca--s-f
+всякакво	Pca--s-n
+всякакви	Pca--p
+
+130
+всичкия	Pcq--s-mh
+всичкият	Pcq--s-mf
+всичка	Pcq--s-fi
+всичката	Pcq--s-fd
+всичко	Pcq--s-ni
+всичкото	Pcq--s-nd
+всички	Pcq--p--i
+всичките	Pcq--p--d
+

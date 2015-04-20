@@ -1,0 +1,50 @@
+<project name="BGLemmatizer" default="build-lib" basedir=".">
+    <description>This buildfile is used to build the BGLemmatizer library</description>
+    
+    <property name="BGLemmatizer.version" value="0.2"/>
+    <property name="gate.jar" location="../../bin/gate.jar" />
+    <property name="BGLangTools.jar" location="lib/BGLangTools.jar" />
+    <property name="build.sysclasspath" value="ignore" />
+
+    <path id="classpath">
+        <pathelement location="${gate.jar}"/>
+        <pathelement location="${BGLangTools.jar}"/>
+    </path>
+
+    
+    <target name="build-all" depends="build-lib,build-doc"/>
+        
+    <target name="build-lib" depends="clean-lib">
+        <mkdir dir="./build"/>
+        <javac debug="true" debuglevel="source,lines" srcdir="./src" destdir="./build">
+            <classpath refid="classpath"/>
+        </javac>
+        <jar basedir="./build" destfile="./BGLemmatizer.jar">
+            <manifest>
+                <attribute name="Class-Path" value="lib/BGLangTools.jar ../../gate.jar"/>
+            </manifest>
+        </jar>
+        <delete dir="./build"/>
+    </target>
+    
+    <target name="build-doc" depends="clean-doc">
+        <mkdir dir="doc/api"/>
+        <javadoc sourcepath="./src" destdir="./doc/api" windowtitle="BGLemmatizer ${BGLemmatizer.version} API specification" Author="false" splitindex="true" use="true">
+            <package name="bg.swu.nlp.tools.bglang.lem"/>
+            <doctitle>BGLemmatizer ${BGLemmatizer.version} API specification</doctitle>
+            <header><![CDATA[<b>BGLemmatizer</b><br><font size=-1>v${BGLemmatizer.version}</font>]]></header>
+            <bottom><![CDATA[<font size=-1>Copyright &copy; 2014 Grigor Iliev. All rights reserved.</font>]]></bottom>
+        </javadoc>
+    </target>
+    
+    <target name="clean" depends="clean-lib,clean-doc"/>
+    
+    <target name="clean-lib">
+        <delete file="BGLemmatizer.jar"/>
+    </target>
+    
+    <target name="clean-doc">
+        <delete dir="doc"/>
+    </target>
+</project>
+

@@ -1,0 +1,8 @@
+<CREOLE-DIRECTORY>
+  <CREOLE>
+    <RESOURCE>
+      <JAR SCAN="true">BGLemmatizer.jar</JAR>
+      <CLASS>bg.swu.nlp.tools.bglang.lem.BGLemmatizerPR</CLASS>
+    </RESOURCE>
+  </CREOLE>
+</CREOLE-DIRECTORY>
