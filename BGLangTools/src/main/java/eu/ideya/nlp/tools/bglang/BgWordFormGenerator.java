@@ -20,13 +20,16 @@
  *   MA  02111-1307  USA
  */
 
-package bg.swu.nlp.tools.bglang;
+package eu.ideya.nlp.tools.bglang;
 
-import eu.ideya.lingua.bg.*;
-
+import eu.ideya.lingua.bg.BTBUtils;
+import eu.ideya.lingua.bg.BgDictionary;
+import eu.ideya.lingua.bg.BgGrammarType;
+import eu.ideya.lingua.bg.GrammaticalLabel;
+import eu.ideya.lingua.bg.WordEntry;
 import static eu.ideya.lingua.bg.BTBUtils.getGrammLabelUid;
+import static eu.ideya.nlp.tools.bglang.I18n.i18n;
 
-import static bg.swu.nlp.tools.bglang.I18n.i18n;
 import java.io.InputStream;
 import java.lang.reflect.Method;
 import java.util.ArrayList;

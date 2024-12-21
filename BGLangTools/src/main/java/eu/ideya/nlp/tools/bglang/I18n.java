@@ -20,7 +20,7 @@
  *   MA  02111-1307  USA
  */
 
-package bg.swu.nlp.tools.bglang;
+package eu.ideya.nlp.tools.bglang;
 
 import java.util.Locale;
 
@@ -35,7 +35,7 @@ public class I18n extends eu.ideya.simplicity.I18n {
 	
 	private
 	I18n() {
-		setErrorsBundle("bg.swu.nlp.tools.bglang.langprops.ErrorsBundle");
+		setErrorsBundle("eu.ideya.nlp.tools.bglang.langprops.ErrorsBundle");
 	}
 	
 	/**

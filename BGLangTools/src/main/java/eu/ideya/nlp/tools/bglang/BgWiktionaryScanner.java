@@ -20,7 +20,7 @@
  *   MA  02111-1307  USA
  */
 
-package bg.swu.nlp.tools.bglang;
+package eu.ideya.nlp.tools.bglang;
 
 import eu.ideya.lingua.bg.BgDictionary;
 import eu.ideya.lingua.bg.BgGrammarType;
