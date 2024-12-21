@@ -1,7 +1,7 @@
 /*
  *   BGLangTools - language tools for processing Bulgarian text
  *
- *   Copyright (C) 2014 Grigor Iliev <grigor.iliev@swu.bg>
+ *   Copyright (C) 2014-2024 Grigor Iliev <grigor.iliev@swu.bg>
  *
  *   This file is part of BGLangTools.
  *
@@ -22,13 +22,16 @@
 
 package bg.swu.nlp.tools.bglang;
 
+import eu.ideya.lingua.bg.BgDictionary;
+import eu.ideya.lingua.bg.BgGrammarType;
 import info.bliki.wiki.dump.IArticleFilter;
 import info.bliki.wiki.dump.Siteinfo;
 import info.bliki.wiki.dump.WikiArticle;
 import info.bliki.wiki.dump.WikiXMLParser;
+
+import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import org.xml.sax.SAXException;
 
 /**
  *
@@ -52,7 +55,7 @@ public class BgWiktionaryScanner {
 	public void scan(String dumpFile, BgDictionary dict) throws UnsupportedEncodingException, IOException {
 		IArticleFilter handler = new ArticleFilter(dict);
 		try {
-			WikiXMLParser wxp = new WikiXMLParser(dumpFile, handler);
+			WikiXMLParser wxp = new WikiXMLParser(new File(dumpFile), handler);
 			wxp.parse();
 		} catch(Exception e) {
 			throw new IllegalArgumentException(e);
@@ -75,7 +78,7 @@ class ArticleFilter implements IArticleFilter {
 	}
 	
 	@Override
-	public void process(WikiArticle page, Siteinfo siteinfo) throws SAXException {
+	public void process(WikiArticle page, Siteinfo siteinfo) {
 		//if (!page.isMain()) return;
 		//System.out.println("----------------------------------------");
 		//System.out.println(page.getId());

@@ -1,7 +1,7 @@
 /*
  *   BGLangTools - language tools for processing Bulgarian text
  *
- *   Copyright (C) 2014 Grigor Iliev <grigor.iliev@swu.bg>
+ *   Copyright (C) 2014-2024 Grigor Iliev <grigor.iliev@swu.bg>
  *
  *   This file is part of BGLangTools.
  *
@@ -22,7 +22,10 @@
 
 package bg.swu.nlp.tools.bglang;
 
-import static bg.swu.nlp.tools.bglang.BTBUtils.getGrammLabelUid;
+import eu.ideya.lingua.bg.*;
+
+import static eu.ideya.lingua.bg.BTBUtils.getGrammLabelUid;
+
 import static bg.swu.nlp.tools.bglang.I18n.i18n;
 import java.io.InputStream;
 import java.lang.reflect.Method;
@@ -76,8 +79,8 @@ public class BgWordFormGenerator {
 	/**
 	 * Note that this method returns <code>null</code> for all pronouns
 	 * (types form 90 to 130 inclusive) and for types 142 and 143 use
-	 * {@link #loadBuiltinPronouns(bg.swu.nlp.tools.bglang.BgDictionary) } and
-	 * {@link #loadBuiltinTypes142_143(bg.swu.nlp.tools.bglang.BgDictionary) }
+	 * {@link #loadBuiltinPronouns(BgDictionary) } and
+	 * {@link #loadBuiltinTypes142_143(BgDictionary) }
 	 * instead.
 	 */
 	public WordEntry[] generateWordForms(WordEntry lemma) {

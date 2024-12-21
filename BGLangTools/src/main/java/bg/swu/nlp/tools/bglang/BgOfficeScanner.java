@@ -1,7 +1,7 @@
 /*
  *   BGLangTools - language tools for processing Bulgarian text
  *
- *   Copyright (C) 2014 Grigor Iliev <grigor.iliev@swu.bg>
+ *   Copyright (C) 2014-2024 Grigor Iliev <grigor.iliev@swu.bg>
  *
  *   This file is part of BGLangTools.
  *
@@ -21,6 +21,11 @@
  */
 
 package bg.swu.nlp.tools.bglang;
+
+import eu.ideya.lingua.bg.BgDictionary;
+import eu.ideya.lingua.bg.BgGrammarType;
+import eu.ideya.lingua.bg.GrammaticalLabel;
+import eu.ideya.lingua.bg.WordEntry;
 
 import static bg.swu.nlp.tools.bglang.I18n.i18n;
 import java.io.BufferedReader;

@@ -1,7 +1,7 @@
 /*
  *   BGLangTools - language tools for processing Bulgarian text
  *
- *   Copyright (C) 2014 Grigor Iliev <grigor.iliev@swu.bg>
+ *   Copyright (C) 2014-2024 Grigor Iliev <grigor.iliev@swu.bg>
  *
  *   This file is part of BGLangTools.
  *
@@ -22,9 +22,12 @@
 
 package bg.swu.nlp.tools.bglang;
 
+import eu.ideya.lingua.bg.BTBUtils;
+import eu.ideya.lingua.bg.BgDictionary;
+import eu.ideya.lingua.bg.BgGrammarType;
+import eu.ideya.lingua.bg.WordEntry;
+
 import java.util.ArrayList;
-import java.util.TreeMap;
-import java.util.TreeSet;
 
 
 /**

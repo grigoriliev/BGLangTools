@@ -1,7 +1,7 @@
 /*
  *   BGLangTools - language tools for processing Bulgarian text
  *
- *   Copyright (C) 2014 Grigor Iliev <grigor.iliev@swu.bg>
+ *   Copyright (C) 2014-2024 Grigor Iliev <grigor.iliev@swu.bg>
  *
  *   This file is part of BGLangTools.
  *
@@ -21,6 +21,10 @@
  */
 
 package bg.swu.nlp.tools.bglang;
+
+import eu.ideya.lingua.bg.BgDictionary;
+import eu.ideya.lingua.bg.GrammaticalLabel;
+import eu.ideya.lingua.bg.WordEntry;
 
 import info.bliki.wiki.dump.WikiArticle;
 import info.bliki.wiki.model.IEventListener;
@@ -104,10 +108,5 @@ public class DictWikiModel extends WikiModel implements IEventListener {
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
-	}
-	
-	@Override
-	public void onHeader(char[] src, int rawStart, int rawEnd, int level) {
-		// deprecated
 	}
 }
