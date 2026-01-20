@@ -22,8 +22,8 @@
 
 package eu.ideya.nlp.tools.bglang;
 
-import eu.ideya.lingua.bg.BgDictionary;
-import eu.ideya.lingua.bg.BgGrammarType;
+import eu.ideya.lingua.bg.core.BgDictionary;
+import eu.ideya.lingua.bg.core.BgGrammarType;
 import info.bliki.wiki.dump.IArticleFilter;
 import info.bliki.wiki.dump.Siteinfo;
 import info.bliki.wiki.dump.WikiArticle;

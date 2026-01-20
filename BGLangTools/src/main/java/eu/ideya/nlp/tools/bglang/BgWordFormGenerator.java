@@ -22,12 +22,12 @@
 
 package eu.ideya.nlp.tools.bglang;
 
-import eu.ideya.lingua.bg.BTBUtils;
-import eu.ideya.lingua.bg.BgDictionary;
-import eu.ideya.lingua.bg.BgGrammarType;
-import eu.ideya.lingua.bg.GrammaticalLabel;
-import eu.ideya.lingua.bg.WordEntry;
-import static eu.ideya.lingua.bg.BTBUtils.getGrammLabelUid;
+import eu.ideya.lingua.bg.core.BTBUtils;
+import eu.ideya.lingua.bg.core.BgDictionary;
+import eu.ideya.lingua.bg.core.BgGrammarType;
+import eu.ideya.lingua.bg.core.GrammaticalLabel;
+import eu.ideya.lingua.bg.core.WordEntry;
+import static eu.ideya.lingua.bg.core.BTBUtils.getGrammLabelUid;
 import static eu.ideya.nlp.tools.bglang.I18n.i18n;
 
 import java.io.InputStream;

@@ -22,9 +22,9 @@
 
 package eu.ideya.nlp.tools.bglang;
 
-import eu.ideya.lingua.bg.BgDictionary;
-import eu.ideya.lingua.bg.GrammaticalLabel;
-import eu.ideya.lingua.bg.WordEntry;
+import eu.ideya.lingua.bg.core.BgDictionary;
+import eu.ideya.lingua.bg.core.GrammaticalLabel;
+import eu.ideya.lingua.bg.core.WordEntry;
 
 import info.bliki.wiki.dump.WikiArticle;
 import info.bliki.wiki.model.IEventListener;
